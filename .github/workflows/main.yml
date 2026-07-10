@@ -2,8 +2,8 @@ name: Tennis ML Prediction System
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Se ejecuta automáticamente todos los días a las 8:00 AM UTC
-  workflow_dispatch: # Te permite ejecutarlo manualmente con un botón desde el navegador de tu móvil
+    - cron: '0 8 * * *' # Se activa solo a las 8:00 AM UTC diariamente
+  workflow_dispatch: # Activa el botón manual verde en la app/web de tu celular
 
 jobs:
   run-ml-system:
